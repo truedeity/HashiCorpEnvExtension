@@ -35,5 +35,5 @@ services.WireupHashi("http://localhost:8200", "myroot", "newkv/mysecrets");
 # Middleware 
 
 ```bash
-services.WireupHashi("http://truedeity.online:8200", "myroot", "newkv/mysecrets");
+services.WireupHashi("http://localhost:8200", "myroot", "newkv/mysecrets");
 ```
