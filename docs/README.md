@@ -21,12 +21,10 @@ vault secrets enable -path=newkv kv-v2
 
 ```bash
 vault kv put newkv/mysecrets accessKey="new-access-key" secretKey="new-secret-key"
-Retrieve the secret:
 ```
 
 ```bash
 vault kv get newkv/mysecrets
-Use the correct path in your application:
 ```
 ```bash
 services.WireupHashi("http://localhost:8200", "myroot", "newkv/mysecrets");
