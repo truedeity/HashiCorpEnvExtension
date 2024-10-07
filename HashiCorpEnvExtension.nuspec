@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>hashikeys</id>
+    <version>1.0.1</version>
+    <authors>Daniel Newman</authors>
+    <owners>Daniel Newman</owners>
+    <readme>docs\README.md</readme>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/truedeity/HashiCorpEnvExtension</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A .NET extension to wire up HashiCorp Vault environment variables in one line.</description>
+    <tags>Vault HashiCorp .NET middleware</tags>
+    <dependencies>
+      <dependency id="VaultSharp" version="1.9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\README.md" target="docs\" />
+  </files>
+</package>
