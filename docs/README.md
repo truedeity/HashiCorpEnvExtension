@@ -26,10 +26,7 @@ vault kv put newkv/mysecrets accessKey="new-access-key" secretKey="new-secret-ke
 ```bash
 vault kv get newkv/mysecrets
 ```
-```bash
-services.WireupHashi("http://localhost:8200", "myroot", "newkv/mysecrets");
 
-```
 
 
 # Middleware 
